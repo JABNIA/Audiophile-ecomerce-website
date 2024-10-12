@@ -14,7 +14,7 @@ export default function Headphones(){
         <ProductPage id={context.productId}/>
         :
         <>
-        <ProductWrapper bgImage={"./dist/assets/product-xx99-mark-two-headphones/desktop/image-product.jpg"}>
+        <ProductWrapper bgImage={"./public/assets/product-xx99-mark-two-headphones/desktop/image-product.jpg"}>
             <div className="headphone-image">
                 
             </div>
@@ -32,7 +32,7 @@ export default function Headphones(){
             </Button>
             </div>
         </ProductWrapper>
-        <ProductWrapper bgImage={"./dist/assets/product-xx99-mark-one-headphones/desktop/image-product.jpg"}>
+        <ProductWrapper bgImage={"./public/assets/product-xx99-mark-one-headphones/desktop/image-product.jpg"}>
         
                 <div className="info">
                     <p className="product-name">XX99 MARK I HEADPHONES</p>
@@ -50,7 +50,7 @@ export default function Headphones(){
                 
                 </div>
         </ProductWrapper>
-        <ProductWrapper bgImage={"./dist/assets/product-xx59-headphones/desktop/image-product.jpg"}>
+        <ProductWrapper bgImage={"./public/assets/product-xx59-headphones/desktop/image-product.jpg"}>
         <div className="headphone-image">
                 
                 </div>

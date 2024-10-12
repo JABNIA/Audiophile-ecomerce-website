@@ -12,7 +12,7 @@ function HomeProductCategoriesSelection(){
       <ShopSelection>
         <ul>
           <SelectionItem>
-            <SelectionImage src={'./dist/assets/shared/desktop/image-category-thumbnail-headphones.png'}/>
+            <SelectionImage src={'./public/assets/shared/desktop/image-category-thumbnail-headphones.png'}/>
             <TextWrapper>
             <h4>HEADPHONES</h4>
             <p  onClick={()=> {
@@ -28,7 +28,7 @@ function HomeProductCategoriesSelection(){
             </TextWrapper>
           </SelectionItem>
           <SelectionItem>
-          <SelectionImage src={"./dist/assets/shared/desktop/image-category-thumbnail-speakers.png"}/>
+          <SelectionImage src={"./public/assets/shared/desktop/image-category-thumbnail-speakers.png"}/>
           <TextWrapper>
             <h4>SPEAKERS</h4>
             <p  onClick={()=> {
@@ -43,7 +43,7 @@ function HomeProductCategoriesSelection(){
           </TextWrapper>
           </SelectionItem>
           <SelectionItem>
-          <SelectionImage src={"./dist/assets/shared/desktop/image-category-thumbnail-earphones.png"}/>
+          <SelectionImage src={"./public/assets/shared/desktop/image-category-thumbnail-earphones.png"}/>
           <TextWrapper>
           <h4>EARPHONES</h4>
             <p  onClick={()=> {

@@ -7,7 +7,7 @@ export default function ProductPresentation(){
     return (
         <PresentationWrapper>
         <ZX9>
-            <ProductImage src={"./dist/assets/home/desktop/image-speaker-zx9.png"}/>
+            <ProductImage src={"./public/assets/home/desktop/image-speaker-zx9.png"}/>
         <ProductPresentationDescription>
             <p className="product-name">ZX9 SPEAKER</p>
             <p>Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.</p>
@@ -57,7 +57,7 @@ const ZX9 = styled.div`
     width: 100%;
     height: 560px;
     background-color: #D87D4A;
-    background-image: url("./dist/assets/home/desktop/pattern-circles.svg");
+    background-image: url("./public/assets/home/desktop/pattern-circles.svg");
     background-repeat: no-repeat;
     background-position-x: -130px;
     display: flex;
@@ -202,7 +202,7 @@ const ZX7 = styled(ZX9)`
     width: 1110px;
     height: 320px;
     background-color: #FFF;
-    background-image: url("./dist/assets/home/desktop/image-speaker-zx7.jpg");
+    background-image: url("./public/assets/home/desktop/image-speaker-zx7.jpg");
     background-size: cover;
     background-position-x: 0px;
     margin-top: 40px;
@@ -302,7 +302,7 @@ const YX1 = styled.div`
     .prod-img{
         width: 540px;
         height: 320px;
-        background-image: url("./dist/assets/home/desktop/image-earphones-yx1.jpg");
+        background-image: url("./public/assets/home/desktop/image-earphones-yx1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 8px;
@@ -347,7 +347,7 @@ const YX1 = styled.div`
         .prod-img{
             width: 339px;
             height: 320px;
-            background-image: url("./dist/assets/home/tablet/image-earphones-yx1.jpg");
+            background-image: url("./public/assets/home/tablet/image-earphones-yx1.jpg");
             background-size: contain;
         }
 
@@ -378,7 +378,7 @@ const YX1 = styled.div`
         .prod-img{
             width: 327px;
             height: 200px;
-            background-image: url("./dist/assets/home/mobile/image-earphones-yx1.jpg");
+            background-image: url("./public/assets/home/mobile/image-earphones-yx1.jpg");
             background-size: cover;
         }
 

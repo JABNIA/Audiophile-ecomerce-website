@@ -15,7 +15,7 @@ export default function Speakers(){
             <ProductPage id={context.productId}/>
             :
             <>      
-            <ProductWrapper bgImage={"./dist/assets/product-zx9-speaker/desktop/image-product.jpg"}>
+            <ProductWrapper bgImage={"./public/assets/product-zx9-speaker/desktop/image-product.jpg"}>
             <div className="headphone-image">
             
             </div>
@@ -33,7 +33,7 @@ export default function Speakers(){
         </Button>
         </div>
         </ProductWrapper>
-        <ProductWrapper bgImage={"./dist/assets/product-zx7-speaker/desktop/image-product.jpg"}>
+        <ProductWrapper bgImage={"./public/assets/product-zx7-speaker/desktop/image-product.jpg"}>
         
         <div className="info">
         <p className="product-name">ZX7 SPEAKER</p>

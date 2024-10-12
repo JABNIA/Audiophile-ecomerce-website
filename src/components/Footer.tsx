@@ -9,7 +9,7 @@ export default function Footer() {
     return (
         <FooterWrapper>
                 <div className="logo">
-                    <img src="./dist/assets/shared/desktop/logo.svg" alt="" />
+                    <img src="./public/assets/shared/desktop/logo.svg" alt="" />
                 </div>
                 <div className="nav">
                     <ul>
@@ -51,9 +51,9 @@ export default function Footer() {
                     <p className="copy">Copyright 2024. All Rights Reserved</p>
                 </div>
                 <div className="socials">
-                   <img src="./dist/assets/shared/desktop/icon-facebook.svg" alt="" /> 
-                   <img src="./dist/assets/shared/desktop/icon-twitter.svg" alt="" /> 
-                   <img src="./dist/assets/shared/desktop/icon-instagram.svg" alt="" /> 
+                   <img src="./public/assets/shared/desktop/icon-facebook.svg" alt="" /> 
+                   <img src="./public/assets/shared/desktop/icon-twitter.svg" alt="" /> 
+                   <img src="./public/assets/shared/desktop/icon-instagram.svg" alt="" /> 
                 </div>
         </FooterWrapper>
     )
